@@ -2,6 +2,7 @@ import { faLinkedin, faSquareGithub } from '@fortawesome/free-brands-svg-icons'
 import { faSquareEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+import profile_pic from '../images/profile-pic.png'
 
 
 const Hero = () => {
@@ -11,7 +12,7 @@ const Hero = () => {
             <div className='p-5 self-center'  >
                 <div className='flex items-center justify-center md:justify-items-start '>
                     <div className='md:w-96 lg:w-max bg-gradient-to-tr from-slate-800 to-gray-900 rounded-circle shadow-2xl shadow-black'>
-                        <img src='src/assets/img/profile-pic.png' className='rounded-circle shadow-2xl shadow-black' />
+                        <img src= {profile_pic}  className='rounded-circle shadow-2xl shadow-black' />
                     </div>
                     <svg className='hover:animate-bounce rounded-circle relative right-12 top-20' viewBox="0 0 36 36" fill="none" role="img" xmlns="http://www.w3.org/2000/svg" width="128" height="128"><title>Nellie Bly</title><mask id="mask__beam" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36"><rect width="36" height="36" fill="#FFFFFF" rx="72"></rect></mask><g mask="url(#mask__beam)"><rect width="36" height="36" fill="#ffad08"></rect><rect x="0" y="0" width="36" height="36" transform="translate(8 8) rotate(118 18 18) scale(1.1)" fill="#1e293b" rx="6"></rect><g transform="translate(4 4) rotate(-8 18 18)"><path d="M13,20 a1,0.75 0 0,0 10,0" fill="#FFFFFF"></path><rect x="11" y="14" width="1.5" height="2" rx="1" stroke="none" fill="#FFFFFF"></rect><rect x="23" y="14" width="1.5" height="2" rx="1" stroke="none" fill="#FFFFFF"></rect></g></g></svg>
                 </div>

@@ -8,7 +8,6 @@
 
 
 .bg-cover-image {
-    background-image: url('src/assets/img/cover-image.png');
     background-repeat: no-repeat;
     background-position: center;
 }

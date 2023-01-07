@@ -2,15 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
+:root {
     --yellow: #FFAD08;
 }
 
-
-.bg-cover-image {
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
 .rounded-circle {
     border-radius: 50%;
